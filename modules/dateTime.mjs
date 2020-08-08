@@ -604,21 +604,10 @@ export var _myCalendarSpec = {
     genDateWordy() {
       let now = Gametime.DTNow();
       let days = now.days + 1;
-      let dayAppendage = "";
-      if (days % 10 == 1 && days != 11) {
-        dayAppendage = game.i18n.localize('CWTIME.First');
-      } else if (days % 10 == 2 && days != 12) {
-        dayAppendage = game.i18n.localize('CWTIME.Second');
-      } else if (days % 10 == 3 && days != 13) {
-        dayAppendage = game.i18n.localize('CWTIME.Third');
-      } else {
-        dayAppendage = game.i18n.localize('CWTIME.Fourth');
-      }
-      this.dateWordy = days + dayAppendage + " of " +
-        this.months[now.months].name + ", " + now.years + " " + this.era;
   
       let abbrev = this.months[now.months] ? this.months[now.months].abbrev : now.months;
   
+      this.dateWordy = days + "/" + `${abbrev}` + "/" + now.years + " " + this.era;
       this.dateNum = days + "/" + `${abbrev}` + "/" + now.years + " " + this.era;
     }
   

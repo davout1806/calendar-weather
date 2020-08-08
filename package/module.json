@@ -1,7 +1,7 @@
 {
-  "name": "calendar-weather",
-  "title": "Calendar/Weather",
-  "description": "Adds a customizable calendar with events and weather.",
+  "name": "calendar-weather-davout",
+  "title": "Calendar/Weather-davout",
+  "description": "Adds a customizable calendar with events and weather. Modified by Davout",
   "version": "2.7.5",
   "minimumCoreVersion": "0.5.1",
   "compatibleCoreVersion": "0.6.5",
@@ -21,7 +21,7 @@
     "modules/calendarForm.mjs",
     "modules/warningSystem.mjs"
   ],
-  "styles": [ "./css/calendar.css" ],
+  "styles": [ "./css/calendar-white-btn.css" ],
   "packs": [],
   "languages": [
     {
