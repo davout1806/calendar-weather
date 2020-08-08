@@ -1,8 +1,11 @@
 # calendar-weather
 A customizable module that accurately tracks and displays dates and time.
+
+Modified
+
 ## Links:
-* Manifest: https://raw.githubusercontent.com/DasSauerkraut/calendar-weather/master/module.json
-* Direct Link: https://github.com/DasSauerkraut/calendar-weather/raw/master/package/calendar-weather-v2.5.2.zip
+* Manifest: https://raw.githubusercontent.com/davout1806/calendar-weather/master/module.json
+* Direct Link: https://github.com/davout1806/calendar-weather/raw/master/package/calendar-weather-v2.7.5d.zip
 
 This module **REQUIRES** [about-time](https://gitlab.com/tposney/about-time) v0.1.18 or greater installed and loaded to function correctly.
 If you want to have weather effects, you must have [FXMaster](https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster) by U~Man installed and loaded.
