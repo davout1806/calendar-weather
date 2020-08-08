@@ -1,6 +1,6 @@
 {
-  "name": "calendar-weather-davout",
-  "title": "Calendar/Weather-davout",
+  "name": "calendar-weather",
+  "title": "Calendar/Weather-Davout",
   "description": "Adds a customizable calendar with events and weather. Modified by Davout",
   "version": "2.7.5d",
   "minimumCoreVersion": "0.5.1",
